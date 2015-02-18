@@ -3,7 +3,7 @@ package com.anakiou.ja.threads;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-public class Main2 {
+public class ThreadsPool {
 	
 	public static void main(String[] args){
 		

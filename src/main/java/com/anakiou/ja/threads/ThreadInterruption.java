@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-public class AppInter {
+public class ThreadInterruption {
 
 	public static void main(String[] args) throws InterruptedException {
 

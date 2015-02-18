@@ -86,7 +86,7 @@ class Worker {
 
 }
 
-public class AppSyncBlock {
+public class ThreadSyncBlock {
 	public static void main(String[] args) {
 
 		Worker worker = new Worker();

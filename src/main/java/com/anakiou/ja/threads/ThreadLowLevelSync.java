@@ -3,7 +3,7 @@ package com.anakiou.ja.threads;
 import java.util.LinkedList;
 import java.util.Random;
 
-public class AppLowLevelSync {
+public class ThreadLowLevelSync {
 
 	class ProcessorLow {
 
@@ -49,7 +49,7 @@ public class AppLowLevelSync {
 	}
 
 	public static void main(String[] args) {
-		AppLowLevelSync low = new AppLowLevelSync();
+		ThreadLowLevelSync low = new ThreadLowLevelSync();
 	}
 
 }

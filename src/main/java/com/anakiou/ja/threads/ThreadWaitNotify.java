@@ -24,10 +24,12 @@ class ProcessorT{
 			notify();
 			
 		}
+		
+		scanner.close();
 	}
 }
 
-public class AppWaitNotify {
+public class ThreadWaitNotify {
 
 	public static void main(String[] args) {
 		ProcessorT p = new ProcessorT();

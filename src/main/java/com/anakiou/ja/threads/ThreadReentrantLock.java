@@ -55,7 +55,7 @@ class Runner {
 
 }
 
-public class AppRunner {
+public class ThreadReentrantLock {
 
 	public static void main(String[] args) throws InterruptedException {
 

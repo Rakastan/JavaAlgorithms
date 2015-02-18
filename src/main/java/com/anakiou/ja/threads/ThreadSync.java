@@ -1,6 +1,6 @@
 package com.anakiou.ja.threads;
 
-public class AppSync {
+public class ThreadSync {
 
 	private int count = 0;
 	
@@ -9,7 +9,7 @@ public class AppSync {
 	}
 
 	public static void main(String[] args) {
-		AppSync app = new AppSync();
+		ThreadSync app = new ThreadSync();
 		app.doWork();
 	}
 

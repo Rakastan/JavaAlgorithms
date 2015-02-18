@@ -30,7 +30,7 @@ class ProcessorLatch implements Runnable{
 
 
 
-public class AppCountDownLatch {
+public class ThreadsCountDownLatch {
 
 	public static void main(String[] args) {
 		CountDownLatch latch = new CountDownLatch(3);

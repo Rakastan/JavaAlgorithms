@@ -26,7 +26,7 @@ class ProcessorPool implements Runnable{
 	
 }
 
-public class AppThreadPool {
+public class ThreadFixedThreadPool {
 	
 	public static void main(String[] args){
 		ExecutorService executor = Executors.newFixedThreadPool(2);

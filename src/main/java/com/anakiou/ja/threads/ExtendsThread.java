@@ -24,7 +24,7 @@ class Processor extends Thread{
 	
 }
 
-public class App {
+public class ExtendsThread {
 
 	public static void main(String[] args) {
 		Processor proc1 = new Processor();
@@ -34,6 +34,7 @@ public class App {
 		scanner.nextLine();
 		
 		proc1.shutdown();
+		scanner.close();
 	}
 
 }

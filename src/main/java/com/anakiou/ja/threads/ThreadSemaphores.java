@@ -57,7 +57,7 @@ class Connection {
 
 }
 
-public class AppSemaphores {
+public class ThreadSemaphores {
 
 	public static void main(String[] args) throws InterruptedException {
 

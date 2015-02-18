@@ -1,7 +1,6 @@
 package com.anakiou.ja.threads;
 
 import java.util.Random;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -100,7 +99,7 @@ class Runner01 {
 
 }
 
-public class AppDeadLock {
+public class ThreadDeadLock {
 
 	public static void main(String[] args) throws InterruptedException {
 
