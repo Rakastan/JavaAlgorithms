@@ -321,7 +321,7 @@ public void printHorzArray(int i, int j){
 		
 		// newArray.linearSearchForValue(10);
 		
-		// newArray.bubbleSort();
+		 newArray.bubbleSort();
 		
 		// We must Sort first
 		
@@ -329,7 +329,7 @@ public void printHorzArray(int i, int j){
 		
 		// newArray.selectionSort();
 		
-		newArray.insertionSort();
+		//newArray.insertionSort();
 		
 	}
 
